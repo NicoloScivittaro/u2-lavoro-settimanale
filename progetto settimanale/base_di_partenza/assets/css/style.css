@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+}   
+   
+/*-*****************************navbar******************************/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: #ffc017;
+    box-sizing: inherit;
+    max-width: 1265px;
+    max-height: 75px;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    transition: background-color 0.5s ease; 
+}
+
+.navbar-white {
+    background-color: white !important;
+}
+.btn.green {
+    background-color: green;
+}
+#navlist{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+#navlist ul{
+    display: flex;
+}
+#navlist li{
+    margin: 10px;
+    list-style-type: none;
+    padding-right: 10px;
+    font-size: 14px;
+}
+#navlist a{
+    text-decoration: none;
+    color: black;
+}
+#navlist button{
+    margin-top:17px;
+    margin-right: 20px;
+    padding: 8px 16px;
+}
+#navlist  #Sign{
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn{
+
+    background: rgba(25, 25, 25, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 99em;
+    cursor: pointer;
+}
+#logo{
+ width: 160px;
+ height: 25px;
+ cursor: pointer;
+ margin-block: 18px;
+ margin-left: 45px;
+
+}
+/**********************************Stay curious.********************************/
+#stay{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: #ffc017;
+}
+#whead{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#titlehead{
+    letter-spacing: -0.05em;
+    line-height: 95px;
+    font-size: 106px;
+    margin: 0;
+    width: 530px;
+}
+#whead button{
+    margin-top: 50PX;
+    margin-right: 330PX;
+    width: 213px;
+    height: 41px;
+    padding: 8px 20px;
+    font-size: 20px;
+    line-height: 24px;
+}
+#whead p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #242424;
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#M{
+    max-width:1265px ;
+    max-height: 530px;
+}
+/*******************************main**********************************/
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#tread{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+#tread img{
+    width: 20px;
+    height: 20px;
+}
+#tread h2{
+    font-size: 20px;
+}
+#card{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom:1px solid grey ;
+}
+.card1{
+    display: flex;
+    align-items: flex-start;
+}
+.noti{
+    display: flex;
+    width: 350px;
+    height: 75px;
+    display: flex;
+    margin: 16px;
+    margin-bottom:25px ;
+}
+.date{
+    display: flex;
+}
+.num{
+    display: flex;
+    font-size: 13px;
+    color: #6B6B6B;
+    line-height: 20px;
+}
+.image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.user a{
+    padding-right: 2px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.user{
+    display: flex;
+}
+.text{
+
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    line-height: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+.numero{
+    color: #F2F2F2;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+}
+/*******************************final*******************************/
+#final{
+    display: flex;
+}
+#notice2{
+    margin: 50px;
+}
+.noti2{
+    display: flex;
+    margin: 30px;
+    max-width: 500px;
+}
+.img2 img{
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    margin: 20px;
+}
+#type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+#type h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#type ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    max-width: 400px;
+}
+
+#type li {
+    border: 1px solid #F2F2F2;
+    border-radius: 100px;
+    background-color: #F2F2F2;
+    color: #242424;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+#type #see{
+    color: green;
+    font-size: 18px;
+}
+#topic ul{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+#topic li{
+    list-style-type: none;
+    margin: 20px;
+    font-size: 14px; 
+    color: #6B6B6B;
+    cursor: pointer;
+}
+/********adattamenti********************/
+@media only screen and (max-width: 1024px) {
+    #navbar {
+        align-items: center;
+    }
+    #navlist {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    #navlist li{
+        display: none;
+    }
+    #navlist button {
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    #stay{
+       padding-top: 70px;
+    }
+    #whead {
+        margin-left: 20px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    #whead button {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+    }
+    #final{
+        display: flex;
+        flex-direction: column;
+    }
+    svg{
+        display: none;
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    #navbar {
+        height: auto;
+    }
+    #navlist {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navlist li {
+        margin: 5px;
+    }
+    #navlist button {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    #logo {
+        margin: 10px;
+    }
+    #whead {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    #whead button {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    #main {
+        padding: 10px;
+    }
+    #tread {
+        margin-left: 10px;
+    }
+    #card {
+        padding-bottom: 10px;
+    }
+    .noti {
+        width: 100%;
+    }
+    .numero {
+        font-size: 24px;
+        padding: 5px;
+    }
+    #final {
+        flex-direction: column;
+        align-items: center;
+    }
+    #notice2 {
+        margin: 20px;
+    }
+    .img2 img {
+        width: 100px;
+        height: 80px;
+    }
+    #type {
+        width: 100%;
+    }
+    #topic ul {
+        max-width: 100%;
+    }
+    #topic li {
+        margin: 10px;
+    }
+}
